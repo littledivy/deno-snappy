@@ -1,0 +1,1 @@
+{"name":"snappy","description":"Google's Snappy Compression and Decompression in Deno","stable":true,"files":["mod.ts","wasm.js","README.md", "LICENSE"]}

@@ -10,7 +10,7 @@ Fast Snappy Compression/Decompression for Deno.
 ## Example
 
 ```typescript
-import { compress } from 'mod.ts';
+import { compress } from 'https://x.nest.land/snappy@0.0.3/mod.ts';
 
 let text = new TextEncoder().encode("Hello, World!");
 compress(text);

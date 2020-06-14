@@ -10,3 +10,9 @@ pub fn compress(input: &[u8]) -> Vec<u8> {
     let mut encoder = snap::raw::Encoder::new();
     snap::raw::Encoder::compress_vec(&mut encoder, input).unwrap()
 }
+
+#[wasm_bindgen]
+pub fn decompress(input: &[u8]) -> Vec<u8> {
+    let mut decoder = snap::raw::Decoder::new();
+    snap::raw::Decoder::decompress_vec(&mut decoder, input).unwrap();
+}

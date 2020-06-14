@@ -1,7 +1,7 @@
-# deno-ciphers
+# snappy compression
 
-[![stars](https://img.shields.io/github/stars/divy-work/deno-ciphers)](https://github.com/divy-work/deno-ciphers/stargazers)
-[![issues](https://img.shields.io/github/issues/divy-work/deno-ciphers)](https://github.com/divy-work/deno-ciphers/issues)
+[![stars](https://img.shields.io/github/stars/divy-work/deno-snappy)](https://github.com/divy-work/deno-snappy/stargazers)
+[![issues](https://img.shields.io/github/issues/divy-work/deno-snappy)](https://github.com/divy-work/deno-snappy/issues)
 ![deno version](https://img.shields.io/badge/deno-1.0.3-success)
 [![vr scripts](https://badges.velociraptor.run/flat.svg)](https://velociraptor.run)
 

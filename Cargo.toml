@@ -1,0 +1,22 @@
+[package]
+name = "deno-snappy"
+description = "Rust WASM Snappy Compression For Deno."
+version = "0.1.0"
+authors = ["Divy Srivastava <dj.srivastava23@gmail.com>"]
+edition = "2018"
+publish = false
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+wasm-bindgen = "0.2.63"
+wee_alloc = { version = "0.4.5", optional = true }
+snap = "1"
+
+[profile.release]
+lto = true
+opt-level = "z"
+
+[features]
+default = ["wee_alloc"]

@@ -16,6 +16,10 @@ let text = new TextEncoder().encode("Hello, World!");
 compress(text);
 ```
 
+#### Join Discord
+
+[![](https://discordapp.com/api/guilds/715564894904123424/widget.png?style=banner2)](https://discord.gg/uqywa4W)
+
 ## Building from source
 
 ### Prerequisites
